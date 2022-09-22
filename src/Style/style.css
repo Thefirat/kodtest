@@ -1,0 +1,58 @@
+/* page nav */
+a.nav-link {
+    text-decoration: none;
+}
+
+
+
+
+
+/* parent div */
+
+.parent-div {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 2rem;
+}
+
+
+
+/* child div */
+.page-art {
+    border: 1px solid;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(245, 243, 243);
+    border-radius: 5px;
+    padding: 1rem; 
+    border-color: white;
+}
+
+
+/* button */
+
+button.page-btn {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+}
+
+/* Avatar */
+.page-img{
+    border-radius: 70%;
+}
+
+/* .img-div
+{
+object-fit: cover;
+border-radius: 50%;
+} */
+
+
+
